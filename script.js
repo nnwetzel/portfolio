@@ -1,32 +1,21 @@
 console.clear();
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(Draggable, InertiaPlugin, MotionPathPlugin);
+const boxes = gsap.utils.toArray(".box");
 
-window.addEventListener("load", () => {
-    gsap
-        .timeline({
-            scrollTrigger: {
-                trigger: ".wrapper",
-                start: "top top",
-                end: "+=150%",
-                pin: true,
-                scrub: true,
-                markers: true
-            }
-        })
-        .to("img", {
-            scale: 2,
-            z: 350,
-            transformOrigin: "center center",
-            ease: "power1.inOut"
-        })
-        .to(
-            ".section.hero",
-            {
-                scale: 1.1,
-                transformOrigin: "center center",
-                ease: "power1.inOut"
-            },
-            "<"
-        );
+gsap.set(boxes, {
+  motionPath: {
+    path: "#myPath",
+    align: "#myPath",
+    alignOrigin: [0.5, 0.5],
+    start: -0.25,
+    end: (i) => i / boxes.length - 0.25,
+    autoRotate: true
+  }
+});
+
+Draggable.create(".container", {
+  type: "rotation",
+  inertia: true,
+  snap: (endVal) => gsap.utils.snap(360 / boxes.length, endVal)
 });
