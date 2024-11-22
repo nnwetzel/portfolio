@@ -17,7 +17,7 @@ export default function Page() {
           fleet of drones to prevent wildfires in Australia.
         </p>
         <p className="mb-4">
-          I’m passionate about <b>problem-solving</b> and <b>creative engineering</b>, viewing
+          Therefore, I’m passionate about <b>problem-solving</b> and <b>creative engineering</b>, viewing
           every opportunity as a stepping stone toward meaningful change. During my Amazon
           internship as an SDE and as a recipient of the Amazon Future Engineer Scholarship, I
           strengthened my passion for <b>software engineering</b> and developed a strong foundation in
