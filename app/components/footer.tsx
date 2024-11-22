@@ -25,9 +25,10 @@ export default function Footer() {
               rel="noopener noreferrer"
               target="_blank"
               href="/public/Nathaniel_Wetzel_Resume.pdf"
+              download="Nathaniel_Wetzel_Resume.pdf"
           >
             <ArrowIcon/>
-            <p className="ml-2 h-7">my resume</p>
+            <p className="ml-2 h-7">resume</p>
           </a>
         </li>
         <li>
@@ -60,7 +61,7 @@ export default function Footer() {
               href="mailto:wetzel.na@northeastern.edu"
           >
             <ArrowIcon/>
-            <p className="ml-2 h-7">email me</p>
+            <p className="ml-2 h-7">email</p>
           </a>
         </li>
       </ul>
