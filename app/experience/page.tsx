@@ -35,7 +35,7 @@ export default function Page() {
             invoices</b> monthly.
           </p>
           <p className="mb-4">
-            Built two <b>AWS Lambda</b> functions in <b>Java</b>,
+            Built two <b>AWS Lambda</b> functions in <b>Java</b> and <b>Python</b>,
             utilizing <b>ElasticSearch</b>, <b>CloudWatch</b>, and <b>EventBridge</b> for real-time
             metric collection and automated notifications.
           </p>
@@ -46,8 +46,8 @@ export default function Page() {
           </p>
           <p className="mb-4">
             Immediately enhanced engineering on-call visibility and responsiveness by utilizing the
-            service to effectively resolve a high-severity incident, preventing future disruptions
-            and ensuring timely invoice rendering and delivery.
+            service to effectively resolve a <b>high-severity incident</b>, preventing future
+            disruptions and ensuring timely invoice rendering and delivery.
           </p>
         </section>
       </section>
