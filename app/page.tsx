@@ -1,4 +1,7 @@
-import { BlogPosts } from 'app/components/posts'
+export const metadata = {
+  title: 'About Me',
+  description: 'Read my about me.',
+}
 
 export default function Page() {
   return (
