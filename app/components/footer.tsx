@@ -25,7 +25,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               target="_blank"
               href="/public/Nathaniel_Wetzel_Resume.pdf"
-              download="Nathaniel_Wetzel_Resume.pdf"
+              download="https://drive.google.com/file/d/1vzHlBhn0cQtfuDRqz7B2coZjnpDy5ybv/view?usp=sharing"
           >
             <ArrowIcon/>
             <p className="ml-2 h-7">resume</p>
