@@ -9,7 +9,7 @@ export default function ExperiencePage() {
             <h2 className="text-xl font-semibold tracking-tighter">Amazon</h2>
             <span className="text-xl text-neutral-500">May - Aug 2024</span>
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center mb-4">
             <p className="text-lg text-neutral-600">Software Development Engineer Intern</p>
             <p className="text-sm text-neutral-500">Seattle, WA</p>
           </div>
