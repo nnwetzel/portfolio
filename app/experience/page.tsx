@@ -23,7 +23,7 @@ export default function Page() {
         <section className="mb-4">
           <div className="flex justify-between items-center">
             <h2 className="text-xl font-semibold tracking-tighter">Amazon</h2>
-            <span className="text-xl tracking-tighter">May – Aug 2024</span>
+            <span className="text-xl tracking-tighter">May 2024 – Aug 2024</span>
           </div>
           <div className="flex justify-between items-center mb-4">
             <p className="tracking-tighter"><i>Software Development Engineer Intern</i></p>
@@ -35,7 +35,7 @@ export default function Page() {
             invoices</b> monthly.
           </p>
           <p className="mb-4">
-            Built two <b>AWS Lambda</b> functions in Java,
+            Built two <b>AWS Lambda</b> functions in <b>Java</b>,
             utilizing <b>ElasticSearch</b>, <b>CloudWatch</b>, and <b>EventBridge</b> for real-time
             metric collection and automated notifications.
           </p>
