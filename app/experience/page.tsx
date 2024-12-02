@@ -6,10 +6,21 @@ export const metadata = {
 export default function Page() {
   return (
 
+
       <section>
         <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
           My Experience
         </h1>
+        <section className="mb-8">
+          <div className="flex justify-between items-center">
+            <h2 className="text-xl font-semibold tracking-tighter">Amazon</h2>
+            <span className="text-xl tracking-tighter">Summer 2025</span>
+          </div>
+          <div className="flex justify-between items-center mb-4">
+            <p className="tracking-tighter"><i>Software Development Engineer Intern</i></p>
+            <p className="tracking-tighter"><i>Seattle, WA</i></p>
+          </div>
+        </section>
         <section className="mb-8">
           <div className="flex justify-between items-center">
             <h2 className="text-xl font-semibold tracking-tighter">Wolters Kluwer</h2>
