@@ -1,42 +1,63 @@
-# Portfolio Blog Starter
+# My Portfolio
 
-This is a porfolio site template complete with a blog. Includes:
+Welcome to the repository for my personal portfolio, hosted at [nnwetzel.com](https://nnwetzel.com). This site serves as a hub to showcase my projects and document my journey in technology.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+## Features
+
+This portfolio template includes:
+
+- **MDX and Markdown Support**: Write content easily in Markdown or MDX.
+- **Optimized for SEO**: Includes a sitemap, robots.txt, and JSON-LD schema to improve search visibility.
+- **RSS Feed**: Stay connected with updates via RSS.
+- **Dynamic Open Graph Images**: Generate OG images dynamically for social sharing.
+- **Syntax Highlighting**: Beautiful code blocks powered by syntax highlighting.
+- **Tailwind CSS v4**: Fully styled and customizable using the latest Tailwind.
+- **Vercel Speed Insights and Analytics**: Monitor performance and user interaction with Vercel.
+- **Geist Font**: A clean and modern aesthetic.
 
 ## Demo
 
-https://portfolio-blog-starter.vercel.app
+Check out the live site at [nnwetzel.com](https://nnwetzel.com).
 
 ## How to Use
 
-You can choose from one of the following two methods to use this repository:
-
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy your own version of the portfolio using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=portfolio&repository-name=portfolio)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+1. Clone this repository:
 
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
+    ```bash
+    git clone https://github.com/your-username/portfolio.git
+    cd portfolio
+    ```
 
-Then, run Next.js in development mode:
+2. Install dependencies using [`pnpm`](https://pnpm.io/installation):
 
-```bash
-pnpm dev
-```
+    ```bash
+    pnpm install
+    ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+3. Run the development server:
+
+    ```bash
+    pnpm dev
+    ```
+
+4. Deploy to Vercel:
+
+    Follow the [Vercel deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) to make it live.
+
+## Personalizing the Portfolio
+
+This project is designed for customization. To personalize it further:
+
+- Update the metadata and SEO settings in `next-seo.config.js`.
+- Add your projects and content in the `/content` folder.
+- Customize the theme and design in `tailwind.config.js` and component files.
+
+Feel free to reach out via the contact form on [nnwetzel.com](https://nnwetzel.com) or connect with me on [GitHub](https://github.com/nnwetzel) and [LinkedIn](https://linkedin.com/in/nnwetzel).
