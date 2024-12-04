@@ -4,11 +4,10 @@ Welcome to the repository for my personal portfolio, hosted at [nnwetzel.com](ht
 
 ## Features
 
-This portfolio template includes:
+This portfolio includes:
 
 - **MDX and Markdown Support**: Write content easily in Markdown or MDX.
 - **Optimized for SEO**: Includes a sitemap, robots.txt, and JSON-LD schema to improve search visibility.
-- **RSS Feed**: Stay connected with updates via RSS.
 - **Dynamic Open Graph Images**: Generate OG images dynamically for social sharing.
 - **Syntax Highlighting**: Beautiful code blocks powered by syntax highlighting.
 - **Tailwind CSS v4**: Fully styled and customizable using the latest Tailwind.
@@ -32,7 +31,7 @@ Deploy your own version of the portfolio using [Vercel](https://vercel.com?utm_s
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/portfolio.git
+    git clone https://github.com/nnwetzel/portfolio.git
     cd portfolio
     ```
 
@@ -51,13 +50,5 @@ Deploy your own version of the portfolio using [Vercel](https://vercel.com?utm_s
 4. Deploy to Vercel:
 
     Follow the [Vercel deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) to make it live.
-
-## Personalizing the Portfolio
-
-This project is designed for customization. To personalize it further:
-
-- Update the metadata and SEO settings in `next-seo.config.js`.
-- Add your projects and content in the `/content` folder.
-- Customize the theme and design in `tailwind.config.js` and component files.
 
 Feel free to reach out via the contact form on [nnwetzel.com](https://nnwetzel.com) or connect with me on [GitHub](https://github.com/nnwetzel) and [LinkedIn](https://linkedin.com/in/nnwetzel).
