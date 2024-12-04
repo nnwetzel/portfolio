@@ -14,12 +14,15 @@ export default function Page() {
         <section className="mb-8">
           <div className="flex justify-between items-center">
             <h2 className="text-xl font-semibold tracking-tighter">Amazon</h2>
-            <span className="text-xl tracking-tighter">Summer 2025</span>
+            <span className="text-xl tracking-tighter">Jun 2024 - Sep 2024</span>
           </div>
           <div className="flex justify-between items-center mb-4">
             <p className="tracking-tighter"><i>Software Development Engineer Intern</i></p>
             <p className="tracking-tighter"><i>Seattle, WA</i></p>
           </div>
+          <p className="mb-4">
+            Summer '25
+          </p>
         </section>
         <section className="mb-8">
           <div className="flex justify-between items-center">
@@ -30,6 +33,9 @@ export default function Page() {
             <p className="tracking-tighter"><i>DevOps Software Engineer Intern</i></p>
             <p className="tracking-tighter"><i>Waltham, MA</i></p>
           </div>
+          <p className="mb-4">
+            Spring '25
+          </p>
         </section>
         <section className="mb-4">
           <div className="flex justify-between items-center">
