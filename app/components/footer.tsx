@@ -24,8 +24,8 @@ export default function Footer() {
               className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
               rel="noopener noreferrer"
               target="_blank"
-              href="/public/Nathaniel_Wetzel_Resume.pdf"
-              download="https://drive.google.com/file/d/1vzHlBhn0cQtfuDRqz7B2coZjnpDy5ybv/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qof_qZSpnFkhPmIarpFuxTTCdqqg8CDA/view?usp=sharing"
+              download="Nathaniel_Wetzel_Resume.pdf"
           >
             <ArrowIcon/>
             <p className="ml-2 h-7">resume</p>
