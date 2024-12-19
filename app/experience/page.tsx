@@ -14,7 +14,7 @@ export default function Page() {
         <section className="mb-8">
           <div className="flex justify-between items-center">
             <h2 className="text-xl font-semibold tracking-tighter">Amazon</h2>
-            <span className="text-xl tracking-tighter">Jun 2025 - Sep 2025</span>
+            <span className="text-xl tracking-tighter">Jun 2025 – Sep 2025</span>
           </div>
           <div className="flex justify-between items-center mb-4">
             <p className="tracking-tighter"><i>Software Development Engineer Intern</i></p>
