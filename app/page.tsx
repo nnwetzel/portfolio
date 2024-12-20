@@ -7,7 +7,7 @@ export default function Page() {
   return (
       <section>
         <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
-          Hi, I'm Nathaniel
+          Hi, I'm Nat
         </h1>
         <p className="mb-4">
           As a second-year Computer Science student at Northeastern University, concentrating in
