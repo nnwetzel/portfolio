@@ -34,7 +34,8 @@ export default function Page() {
             <p className="tracking-tighter"><i>Waltham, MA</i></p>
           </div>
           <p className="mb-4">
-            Spring '25
+            Leverage Ansible to automate agent installation, develop comprehensive audit scripts, and implement a
+            configurable internal patch management tool across Windows and Linux hosts.
           </p>
         </section>
         <section className="mb-4">
@@ -48,22 +49,22 @@ export default function Page() {
           </div>
           <p className="mb-4">
             Designed and implemented a scalable metric aggregation and notification service to track
-            the status, completeness, and estimated completion time for processing over <b>100k+
-            invoices</b> monthly.
+            the status, completeness, and estimated completion time for processing over <b>100,000+
+            invoices monthly</b>.
           </p>
           <p className="mb-4">
-            Built two <b>AWS Lambda</b> functions in <b>Java</b> and <b>Python</b>,
-            utilizing <b>ElasticSearch</b>, <b>CloudWatch</b>, and <b>EventBridge</b> for real-time
+            Built two AWS Lambda functions in Java and Python,
+            utilizing ElasticSearch, CloudWatch, and EventBridge for real-time
             metric collection and automated notifications.
           </p>
           <p className="mb-4">
-            Developed an infrastructure-as-code module using <b>Amazon CDK</b> for deploying the
-            Lambda service within a <b>VPC</b>, integrating <b>Dagger</b> for secure and efficient
+            Developed an infrastructure-as-code module using Amazon CDK for deploying the
+            Lambda service within a VPC, integrating Dagger for secure and efficient
             operations.
           </p>
           <p className="mb-4">
             Immediately enhanced engineering on-call visibility and responsiveness by utilizing the
-            service to effectively resolve a <b>high-severity incident</b>, preventing future
+            service to effectively resolve a high-severity incident, preventing future
             disruptions and ensuring timely invoice rendering and delivery.
           </p>
         </section>

@@ -12,7 +12,7 @@ export default function Page() {
 
         <div className="mb-8">
           <h2 className="text-xl font-semibold tracking-tighter">Languages</h2>
-          <p>Java, Python, HTML5/CSS</p>
+          <p>Java, Python, JavaScript, ReactJS, HTML5/CSS</p>
         </div>
 
         <div className="mb-6">

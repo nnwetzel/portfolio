@@ -24,7 +24,7 @@ export default function Footer() {
               className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://drive.google.com/file/d/1qof_qZSpnFkhPmIarpFuxTTCdqqg8CDA/view"
+              href="https://drive.google.com/file/d/1PZWv48Olw_j97TXRzWOh3w4eJTMn6iQ8/view"
               download="Nathaniel_Wetzel_Resume.pdf"
           >
             <ArrowIcon/>
